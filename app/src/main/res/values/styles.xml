@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_style">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:fontFamily">@font/croissant_one</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="button_style" parent="text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#32DB2C</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
